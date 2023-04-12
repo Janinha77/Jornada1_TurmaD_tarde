@@ -1,5 +1,5 @@
 .cabeçalho {
-    background-color: #804674;
+    background-color: #dc61c3;
     color: white;
     display: flex;
     padding: 10px;
@@ -7,9 +7,20 @@
     justify-content: space-around;
 }
 .cabeçalho-imagem {
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 30%;
 }
 .cabeçalho-lista-item {
     display: inline-block;
+    padding: 24px;
+    margin: 24px;
+}
+.café {
+    background-image: linear-gradient(#dc61c3, rgb(213, 150, 178));
+    color: white;
+    font-size: 21px;
+    padding: 100px 75px;
+}
+.café-título {
+    padding: 10px 0px;
 }
